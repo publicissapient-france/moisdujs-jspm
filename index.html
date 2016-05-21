@@ -2,35 +2,41 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Xebia - Mois Du JS</title>
+  <title>Xebia - Mois Du JS</title>
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
-    <link rel="import" href="src/slot-form/x-slot-form.html">
-    <link rel="import" href="src/slot-grid/x-slot-grid.html">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+  <link rel="import" href="src/slot-form/x-slot-form.html">
+  <link rel="import" href="src/slot-grid/x-slot-grid.html">
 
-    <style>
-        .container {
-            margin-top: 50px;
-        }
-    </style>
+  <script src="jspm_packages/system.js"></script>
+  <script src="jspm.browser.js"></script>
+  <script src="jspm.config.js"></script>
+
+  <style>
+    .container {
+      margin-top: 50px;
+    }
+  </style>
 </head>
 
 <body>
 <div class="container">
-    <div class="row">
-        <div class="col-md-7">
-            <x-slot-grid></x-slot-grid>
-        </div>
-        <div class="col-md-4 col-md-offset-1">
-            <x-slot-form></x-slot-form>
-        </div>
+  <div class="row">
+    <div class="col-md-7">
+      <x-slot-grid></x-slot-grid>
     </div>
+    <div class="col-md-4 col-md-offset-1">
+      <x-slot-form></x-slot-form>
+    </div>
+  </div>
 </div>
 
-<script src="src/app.js"></script>
+<script>
+  SystemJS.import('src/app.js');
+</script>
 </body>
 
 </html>
