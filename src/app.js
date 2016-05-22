@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import bootstrap from 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.css!';
+// import 'bootstrap/dist/css/bootstrap.css!';
+import './style/app.scss!'
 
 import './slot-grid/x-slot-grid';
 import './slot-form/x-slot-form';
