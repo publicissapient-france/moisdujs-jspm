@@ -1,9 +1,9 @@
 .slot-grid thead th {
-  background: lightgray;
-  vertical-align: top;
+    background: lightgray;
+    vertical-align: top;
 }
 
 .slot-grid th,
 .slot-grid td {
-  width: 25%;
+    width: 25%;
 }

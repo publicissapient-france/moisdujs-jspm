@@ -1,11 +1,10 @@
 {
   "name": "moisdujs-jspm",
   "version": "1.0.0",
-
   "description": "Packaging de l’pplication de base avec JSPM pour le mois du JS",
   "scripts": {
     "serve": "http-server -a localhost -p 3000",
-    "start" : "open http://localhost:3000 && npm run serve"
+    "start": "npm run serve"
   },
   "repository": {
     "type": "git",
@@ -16,10 +15,8 @@
     "node": "5.x.x",
     "npm": "3.x.x"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
-
+    "http-server": "^0.9.0"
   }
 }

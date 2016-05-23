@@ -2,32 +2,40 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Xebia - Mois Du JS</title>
+  <title>Xebia - Mois Du JS</title>
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
-    <link rel="import" href="slot-form/x-slot-form.html">
-    <link rel="import" href="slot-grid/x-slot-grid.html">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <style>
-        .container {
-            margin-top: 50px;
-        }
-    </style>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+          integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+          crossorigin="anonymous"></script>
+
+  <link rel="import" href="slot-form/x-slot-form.html">
+  <link rel="import" href="slot-grid/x-slot-grid.html">
+
+  <style>
+    .container {
+      margin-top: 50px;
+    }
+  </style>
 </head>
 
 <body>
 <div class="container">
-    <div class="row">
-        <div class="col-md-7">
-            <x-slot-grid></x-slot-grid>
-        </div>
-        <div class="col-md-4 col-md-offset-1">
-            <x-slot-form></x-slot-form>
-        </div>
+  <div class="row">
+    <div class="col-md-7">
+      <x-slot-grid></x-slot-grid>
     </div>
+    <div class="col-md-4 col-md-offset-1">
+      <x-slot-form></x-slot-form>
+    </div>
+  </div>
 </div>
 
 <script src="app.js"></script>
