@@ -1,3 +1,6 @@
+import template from './x-slot-grid.html!text';
+import './x-slot-grid.css!';
+
 class XSlotGrid extends HTMLElement {
   createdCallback() {
     this.innerHTML = template;

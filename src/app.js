@@ -1,3 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.css!';
+
+import './slot-form/x-slot-form';
+import './slot-grid/x-slot-grid';
+
 const init = () => {
   const slots = {1: [], 2: [], 3: [], 4: []};
   const grid = document.querySelector('x-slot-grid');

@@ -1,3 +1,6 @@
+import template from './x-slot-form.html!text';
+import './x-slot-form.css!';
+
 class XSlotForm extends HTMLElement {
   createdCallback() {
     this.innerHTML = template;
