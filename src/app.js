@@ -1,5 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css!';
-
+import './style/app.scss!';
 import './slot-form/x-slot-form';
 import './slot-grid/x-slot-grid';
 
