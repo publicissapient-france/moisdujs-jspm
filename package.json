@@ -1,7 +1,7 @@
 {
   "name": "moisdujs-jspm",
   "version": "1.0.0",
-  "description": "Packaging de l’pplication de base avec JSPM pour le mois du JS",
+  "description": "Packaging de l’application de base avec JSPM pour le mois du JS",
   "scripts": {
     "serve": "http-server -a localhost -p 3000",
     "start": "npm run serve"
