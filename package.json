@@ -4,7 +4,9 @@
   "description": "Packaging de l’application de base avec JSPM pour le mois du JS",
   "scripts": {
     "serve": "http-server -a localhost -p 3000",
-    "start": "npm run serve"
+    "start": "npm run serve",
+    "bundle": "jspm bundle src/app.js -wid --skip-source-maps",
+    "bundle:prod": "jspm bundle --skip-source-maps"
   },
   "repository": {
     "type": "git",
